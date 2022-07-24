@@ -36,6 +36,9 @@ Board: "NodeMCU 1.0 (ESP-12E Module)"
 ![Schematic](Fritzing/Counter_schem.png)  
 
 ## References
+radmon.org  
+https://radmon.org/index.php
+
 RH Electronics Geiger Counter DIY Kit 3.0  
 https://www.rhelectronics.store/radiation-detector-geiger-counter-diy-kit-second-edition
 
