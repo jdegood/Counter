@@ -139,7 +139,7 @@ void loop() {
   delay(PERIOD);
 
   // calculate CPM
-  cpm = (int)(eventCounter * (double)PERIOD / (millis() - start) + 0.5);
+  cpm = (int)(eventCounter * 60000.0 / (millis() - start) + 0.5);  // 60000 msec/min
 
   // reset the event counter
   eventCounter = 0;
