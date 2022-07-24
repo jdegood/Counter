@@ -1,0 +1,19 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// configurable parameters for Counter.ino
+// copy this file to "config.h" and edit
+
+// parameters
+const int PERIOD = 5*60*1000;  // upload interval to radmon.org in msec
+const int INT_PIN = 4;         // counter interrupt is GPIO4 (NodeMCU D2)
+
+// WiFi access point credentials
+const char* ssid = "SSID";
+const char* pswd = "SSID_PASSWORD";
+
+// radmon.org credentials
+const char* username = "RADMON_USERNAME";
+const char* password = "RADMON_PASSWORD";
+
+#endif
