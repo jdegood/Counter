@@ -29,8 +29,11 @@ A simple ESP8266 Arduino sketch to count interrupts from a RH Electronics Geiger
 Board: "NodeMCU 1.0 (ESP-12E Module)"
 ```
   
-## Breadboard
-![Breadboard](Fritzing/Counter_bb.png)  
+## RH Electronics Geiger Counter DIY Kit 3.0 + Amica NodeMCU ESP8266 module
+![Counter](images/counter.jpg)  
+
+## Wiring
+![Wiring](Fritzing/Counter_bb.png)  
 
 ## Schematic
 ![Schematic](Fritzing/Counter_schem.png)  
